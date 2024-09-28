@@ -1,4 +1,4 @@
-*{background-color: blue;}
+*{background-color: red;}
 
 body {
     font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@ header {
 }
 
 header .logo img {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 nav ul {
@@ -106,3 +106,54 @@ form button:hover {
 .benefit:hover {
     transform: translateY(-5px);
 }
+img {
+    width: 10%;/*reduit l'image a 50% de largeur d'origine */
+}
+.container {
+    display: grid;
+    place-items: center; /* centre horizontalement et verticalement */
+    height: 100px; /* hauteur du conteneur */
+}
+.container {
+   text-align: center;/*centre les elements en ligne a l'interieur du conteneur*/
+}
+header {
+    position: relative;
+    height: 100px; /* Hauteur du header */
+}
+
+header {
+    position: relative; /* Position relative pour le parent */
+    height: 100px; /* Hauteur du header */
+}
+
+.container {
+    display: flex; /* Active Flexbox */
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+}
+
+.middle {
+    flex-grow: 1; /* Permet au bloc du milieu d'occuper plus d'espace */
+    display: flex;
+    justify-content: center; /* Centre le contenu du bloc */
+    align-items: center;}
+    .club-images{
+        text-align: center;
+    }
+    .club-details{
+        text-align: center;
+    }
+    .hero{
+        text-align: center;
+    }
+    .club-info{
+        text-align: center;
+    }
