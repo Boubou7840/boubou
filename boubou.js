@@ -1,7 +1,7 @@
 let psg = document.getElementById('psg')
 psg.addEventListener('mouseover',function(){
     psg.style.backgroundColor = 'black,';
-});
+})
 psg.addEventListener('mouseout',function(){
     psg.style.backgroundColor = 'transparent,';
 });
@@ -12,7 +12,7 @@ bille.addEventListener('mouseover', function(){
 })
 bille.addEventListener('mouseout', function(){
     bille.style.background = 'transparent'
-})
+});
 
 let bout = document.getElementById('boutique')
 bout.addEventListener('mouseover', function(){
@@ -20,7 +20,7 @@ bout.addEventListener('mouseover', function(){
 })
 bout.addEventListener('mouseout', function(){
     bout.style.background = 'transparent'
-})
+});
 
 let paris = document.getElementById('myparis')
 paris.addEventListener('mouseover', function(){
@@ -28,14 +28,14 @@ paris.addEventListener('mouseover', function(){
 })
 paris.addEventListener('mouseout', function(){
     paris.style.background = 'transparent'
-
+});
 let stadi = document.getElementById('stadiumtour')
 stadi.addEventListener('mouseover', function(){
     stadi.style.background = 'black'
 })
 stadi.addEventListener('mouseout', function(){
     stadi.style.background = 'transparent'
-})
+});
 
 let entrep = document.getElementById('entreprises')
 entrep.addEventListener('mouseover', function(){
@@ -43,7 +43,7 @@ entrep.addEventListener('mouseover', function(){
 })
 entrep.addEventListener('mouseout', function(){
     entrep.style.background = 'transparent'
-})
+});
 
 let present = document.getElementById('presentation')
 present.addEventListener('mouseout', function(){
@@ -51,4 +51,4 @@ present.addEventListener('mouseout', function(){
 })
 present.addEventListener('mouseover', function(){
     present.style.background = 'transparent'
-})
+});
